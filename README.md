@@ -1,4 +1,4 @@
-# 📝 Task Manager — Application Web
+# 📝 Task Manager ( Application Web)
 
 ## 📌 Présentation du projet
 
