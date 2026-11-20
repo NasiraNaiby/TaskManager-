@@ -1,17 +1,51 @@
-# 📝 Task Manager API
+# 📝 Task Manager — Application Web
 
 ## 📌 Présentation du projet
 
-Task Manager API est un projet Back-End développé avec **Python et FastAPI** dans le cadre de ma formation en développement Back-End.
+Task Manager est un projet d'application web développé dans le cadre de ma formation en développement Back-End.
 
-L'objectif de ce projet est de créer une API REST simple permettant aux utilisateurs de gérer leurs tâches quotidiennes.
+L'objectif est de créer une application simple qui permet aux utilisateurs d'organiser leurs tâches quotidiennes, de suivre leur progression et de ne pas oublier leurs activités importantes.
 
-L'application permettra de :
+Les utilisateurs pourront accéder à l'application directement depuis leur navigateur web.
 
-- Créer une tâche.
-- Consulter la liste des tâches.
-- Modifier une tâche.
+## ⚙️ Fonctionnalités prévues
+
+L'application permettra aux utilisateurs de :
+
+- Créer une nouvelle tâche.
+- Consulter la liste de leurs tâches.
+- Modifier une tâche existante.
 - Marquer une tâche comme terminée.
 - Supprimer une tâche.
+- Définir une date et une heure pour une tâche.
+- Recevoir des notifications et des rappels personnalisés.
 
-Le projet sera développé progressivement, en commençant par une version simple (MVP), puis en ajoutant de nouvelles fonctionnalités.
+## 🔔 Notifications et rappels
+
+Le système intégrera une fonctionnalité de **notifications et de rappels personnalisés**.
+
+Les utilisateurs pourront définir une date et une heure pour recevoir un rappel concernant une tâche à effectuer.
+
+Cette fonctionnalité permettra de réduire les oublis, de mieux respecter les délais et d'améliorer l'organisation quotidienne.
+
+## 🛠️ Technologies choisies
+
+**Front-End :**
+- HTML
+- CSS
+- JavaScript
+
+**Back-End :**
+- Python
+- FastAPI
+
+**Base de données :**
+- SQLite
+
+Le Front-End communiquera avec le Back-End grâce à une **API REST**.
+
+## 🎯 Objectif pédagogique
+
+Ce projet est réalisé dans le cadre de ma formation en développement Back-End.
+
+Le développement se fera progressivement, en commençant par un **MVP (Minimum Viable Product)** avec les fonctionnalités principales, puis en ajoutant l'authentification et le système de notifications.
